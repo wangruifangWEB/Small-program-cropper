@@ -1,0 +1,7 @@
+{
+    "backgroundTextStyle": "dark",
+    "usingComponents": {
+        "canvas-drag": "/components/canvas-drag/index",
+        "image-cropper": "/components/image-cropper/image-cropper"
+    }
+}

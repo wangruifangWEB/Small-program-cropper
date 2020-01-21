@@ -1,0 +1,10 @@
+
+.btn{
+    width: 80%;
+    padding:20rpx;
+    margin:20rpx auto;
+    border:solid 1px #dfdfdf;
+    border-radius: 10rpx;
+    font-size: 24rpx;
+    text-align: center;
+}

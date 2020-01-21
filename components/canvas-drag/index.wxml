@@ -1,0 +1,9 @@
+<canvas canvas-id='canvas-label' disable-scroll="true" bindtouchstart="start" bindtouchmove="move" bindtouchend="end" style='width: {{width}}rpx; height: {{height}}rpx;' wx:if="{{!originUrl}}"></canvas>
+<view wx:if="{{originUrl}}" class="cropper_box">
+	<!-- <view class="cropper_box"> -->
+	<image-cropper id="image-cropper" bindload="cropperload" bindimageload="loadimage" bindtapcut="clickcut" limit_move="true" disable_rotate="true" width="250" height="300" imgSrc="{{src}}" angle="{{angle}}" disable_width="{{disable_width}}" max_width="400" max_height="400" disable_height="{{disable_height}}" disable_ratio="{{disable_ratio}}">
+	</image-cropper>
+	<view class='bottom'>
+		<button bindtap='submit' class="sure_btn">确定</button>
+	</view>
+</view>

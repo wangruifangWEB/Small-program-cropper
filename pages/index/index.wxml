@@ -1,0 +1,5 @@
+<canvas-drag id="canvas-drag" graph="{{graph}}" width="{{canvasWidth}}" height="{{canvasHeight}}" enableUndo="{{true}}"></canvas-drag>
+<view class="btn" bindtap="onAddImage">添加图片</view>
+
+  
+
